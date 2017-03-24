@@ -90,14 +90,14 @@ window.onload = function() {
        
     }
 
-<<<<<<< HEAD
+
  /*Om filmen har en youtube trailer id, settes den inn i youtube div'en*/
      if(movie_object["youtube trailer id"]){
             document.getElementById("youtube").innerHTML = "<iframe width=\"800\" height=\"400\" src=\"https://www.youtube.com/embed/" + movie_object["youtube trailer id"] +  "\" frameborder=\"0\" allowfullscreen></iframe>";
             
         }
 
-=======
+
       function youtube(){
   for(i in movies_object) {
         
@@ -113,7 +113,7 @@ window.onload = function() {
   }
 youtube();
  
->>>>>>> origin/master
+
     
 
 
